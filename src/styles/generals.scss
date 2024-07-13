@@ -1,0 +1,21 @@
+@import "/node_modules/bootstrap/scss/bootstrap.scss"; // bootstrap
+@import "/node_modules/flag-icons/css/flag-icons.min.css";
+
+/*GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url('https://cdn.wallpapersafari.com/59/44/o2mLkf.jpg');
+    background-attachment: fixed;
+    background-repeat: "no-repeat";
+}
+
+body{
+    background-image: url('https://cdn.wallpapersafari.com/59/44/o2mLkf.jpg');
+    background-attachment: fixed;
+    background-repeat: "no-repeat";
+}
