@@ -1,19 +1,18 @@
 <script>
 
 import AppHeader from './components/AppHeader.vue';
+import AppCardMovie from './components/AppCardMovie.vue';
+import AppCardTv from './components/AppCardTv.vue';
 import { store } from './store.js';
 import axios from 'axios';
 
 export default {
     components: {
         AppHeader,
+        AppCardMovie,
+        AppCardTv
+    },
 
-    },
-    data() {
-        return {
-            store,
-        }
-    },
     methods:{
 
 }
